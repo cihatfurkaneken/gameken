@@ -2,4 +2,4 @@
 
 - Game Review Website design with HTML-CSS and Bootstrap
 
-[Click for DEMO](cihatfurkaneken.github.io/gameken/)
+[Click for DEMO](https://cihatfurkaneken.github.io/gameken/)
