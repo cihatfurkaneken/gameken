@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>İletişim</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+
+    <!----------------- HEADER ------------------>
+<header>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class=" col-sm-8 col-lg-9 ">
+               
+                <a  class="nav-brand" style="color:white;font-size: 2rem;font-family:Verdana, Geneva, Tahoma, sans-serif;text-decoration: none;" href="index.html"> <img src="images/loggo.png"></a>
+               <span style=" font-family: Comic Sans MS;color:ghostwhite;"> &nbsp İnceleme ve Oyunun Doğru adresi...</span>
+
+            </div>
+            <div class="col-sm-4 col-lg-3 ">
+                <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x" style="color: white;" ></i></a> 
+                <a href="https://www.facebook.com">  <i class="fab fa-facebook fa-2x" style="color: white; margin:0 10px 0 10px;"></i></a> 
+                <a href="https://www.twitter.com"> <i class="fab fa-twitter fa-2x" style="color: white;"></i></a> 
+                <a href="https://www.linkedin.com"> <i class="fab fa-linkedin fa-2x" style="color: white ;margin:0 10px 0 10px;"></i></a> 
+                <a href="https://www.github.com"> <i class="fab fa-github fa-2x" style="color: white;"></i></a> 
+            
+
+            </div>
+          </div>
+      </div>
+
+</header>
+<!----------------- NAV ------------------>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top justify-content-between" style="padding:0 15px 0 15px;background:#F9A26C;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsenav">
+     <ul class="navbar-nav mr-auto">   
+        <li class="nav-item"><a class="menuu" href="index.html">Anasayfa</a></li>
+        <li class="nav-item" ><a class="menuu" href="inceleme.html">İnceleme</a></li>
+        <li class="nav-item"><a class="menuu" href="galeri.html">Galeri</a></li>
+        <li class="nav-item"><a class="menuu" href="haber.html">Haberler</a></li>
+        <li class="nav-item" style="background-color: #1B1B1E; "><a class="menuu" href="iletisim.html">İletişim</a></li>     
+    </ul>
+         
+    <form class="form-inline">
+        <div class="input-group ">
+            <input type="text" class="form-control" placeholder="Oyun-İnceleme Ara" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-dark" type="button"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        
+      </form>
+         
+    </div>
+    </nav>
+
+<!----------------- SECTION ------------------>
+   <section>
+    <div class="container" style="background-color:white;">
+        
+        <br>
+        <h1 class="display-4">İletişim</h1>
+      <hr>   
+               <div class="well well-sm">
+                   <form>
+                   <div class="row">
+                       <div class="col-md-6">
+                           <div class="form-group">
+                               <label for="name">
+                                   İsim</label>
+                               <input type="text" class="form-control" id="name" placeholder="İsim girin" required="required" />
+                           </div>
+                           <div class="form-group">
+                               <label for="email">
+                                   Mail Adresi</label>
+                               <div class="input-group">
+                                   <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                   </span>
+                                   <input type="email" class="form-control" id="email" placeholder="Mail Girin" required="required" /></div>
+                           </div>
+                           <div class="form-group">
+                               <label for="subject">
+                                   Konu</label>
+                               <select id="subject" name="subject" class="form-control" required="required">
+                                   <option value="na" selected="">Seçiniz:</option>
+                                   <option value="service">Genel Şikayet</option>
+                                   <option value="suggestions">Öneri</option>
+                                   <option value="product">Tanıtım</option>
+                               </select>
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="form-group">
+                               <label for="name">
+                                   Mesaj</label>
+                               <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                   placeholder="Mesajınızı girin.."></textarea>
+                           </div>
+                           
+                            <p class="text-right">
+                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                    Mesaj Gönder</button>
+                              </p>
+                       </div>
+                       
+                   </div>
+                   </form>
+               </div>
+               <div class="row">
+                <div class="col-md-4">
+                 
+                    <form>
+                    <legend><span class="glyphicon glyphicon-globe"></span>Polonya Ofisimiz</legend>
+                    <address>
+                        <strong>CFE, Inc. Corp.</strong><br>
+                        421 Gredo Eva<br>
+                        Gdansk, Poland, GD 94107<br>
+                    P: +48 (123) 456-7890
+                    </address>
+                    <address>
+                        <strong>Cihat Furkan Eken</strong><br>
+                        <a href="mailto:cihatfurkaneken@gmail.com">cihatfurkaneken@gmail.com</a>
+                    </address>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                        <legend><span class="glyphicon glyphicon-globe"></span>Düzce Ofisimiz</legend>
+                        <address>
+                            <strong>CFE, Ltd. Şti.</strong><br>
+                            81000 Orhangazi Mah<br>
+                            Konuralp, Düzce, <br>
+                        P: +90 (123) 456-7890
+                        </address>
+                        <address>
+                            <strong>Cihat Furkan Eken</strong><br>
+                            <a href="mailto:cihatfurkaneken@gmail.com">cihatfurkaneken@gmail.com</a>
+                        </address>
+                        </form>
+                    
+                   </div>
+                   <div class="col-md-4">
+       
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.3868978147907!2d31.180856314918273!3d40.907261979311144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409da0dd3f07ef15%3A0xc6d7896027c0e5e9!2zRMO8emNlIMOcbml2ZXJzaXRlc2k!5e0!3m2!1str!2str!4v1557887477356!5m2!1str!2str" frameborder="0" style="width:100%;height:90%;border:0;" allowfullscreen></iframe>
+                        
+                   </div>
+                   
+               </div>
+            </div>
+  </section>
+
+  <!----------------- FOOTER ------------------>
+  <footer>
+
+              <div class="container bottom_border">
+                  <div class="row">
+                    <div class=" col-sm-4 col-md  col-6 col">
+                      <h5 class="headin5_amrc col_white_amrc pt2">Hızlı Menü</h5>
+                 
+                      <ul class="footer_ul_amrc">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="inceleme.html">İnceleme</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="haber.html">Haberler</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                        
+                      </ul>
+              
+                      </div>
+                 
+
+                  <div class=" col-sm-4 col-md  col-12 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2">Bizi Takip Edin</h5>
+              
+                  <ul class="footer_ul2_amrc">
+                  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> <p>Güncel Oyun Haberleri...</p></a></li>
+                  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> <p>En Özel İncelemer...</p></a></li>
+                  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> <p>Hepsi ve Daha Fazlası...</p></a></li>
+                <li>
+                  <form>
+                  <label class="sr-only" for="inlineFormInputGroup">sea</label>
+                 <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Bültene Abone Ol">
+                </div>      
+              </form>
+            </li>  
+            </ul>
+              </div>
+
+
+              <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Bize Ulaşın</h5>
+     
+                <p class="mb10">Düzce Üniversitesi</p>
+                <p><i class="fa fa-location-arrow"></i> Konuralp Yerleşkesi Konuralp Merkez/Düzce 81620 </p>
+                <p><i class="fa fa-phone"></i>  0850 800 81 81  </p>
+                <p><i class="fa fa fa-envelope"></i> cihatfurkaneken@gmail.com  </p>
+                
+                </div>
+              
+      
+        </div>
+      </div>
+   </div>
+               
+             <div class="container">
+                  <ul class="social_footer_ul">
+                  <li><a href="http://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="http://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="http://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="http://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="http://github.com"><i class="fab fa-github"></i></a></li>
+                  </ul>      
+             </div>
+      <br>
+      <p class="text-center">&nbsp&nbsp Copyright @2020 | Designed by CFE</p>
+          </footer>
+      
+
+</body>
+</html>
+
+
